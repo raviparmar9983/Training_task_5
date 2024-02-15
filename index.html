@@ -7,6 +7,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="Assest/css/bootstrap.min.css">
     <link rel="stylesheet" href="Assest/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -40,17 +46,82 @@
                 </ul>
                 <form class="d-flex">
                     <button class="btn btn-outline-transparent text-success" type="submit">Login</button>
-                    <button class="btn btn-success" type="submit">Sign in</button>
+                    <button class="btn1" id="nav-btn" type="submit">Sign in</button>
                 </form>
             </div>
         </div>
     </nav>
-    <!--box  2     -->
+    <!--box  1  -->
+    <div class="container-fluid bg-light p-5">
+        <div class=" container-md">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1" id="carsoule-button"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2" id="carsoule-button"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3" id="carsoule-button"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 col-12">
+                                <h3 class="display-3 fw-bold">Lessons and insights </h3>
+                                <h3 class="display-3 fw-bold text-success">from 8 years</h3>
+                                <p class="text-left fs-6">Where to grow your business as a photographer: site or social
+                                    media?
+                                </p>
+                                <form class="d-flex">
+                                    <button class="btn1" id="b1-btn" type="submit">Register</button>
+                                </form>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <img src="Assest/img/Illustration.svg" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 col-12">
+                                <h3 class="display-3 fw-bold">Lessons and insights </h3>
+                                <h3 class="display-3 fw-bold text-success">from 8 years</h3>
+                                <p class="text-left fs-6">Where to grow your business as a photographer: site or social
+                                    media?
+                                </p>
+                                <form class="d-flex">
+                                    <button class="btn1" id="b1-btn" type="submit">Register</button>
+                                </form>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <img src="Assest/img/Illustration.svg" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row align-items-center">
+                            <div class="col-sm-6 col-12">
+                                <h3 class="display-3 fw-bold">Lessons and insights </h3>
+                                <h3 class="display-3 fw-bold text-success">from 8 years</h3>
+                                <p class="text-left fs-6">Where to grow your business as a photographer: site or social
+                                    media?
+                                </p>
+                                <form class="d-flex">
+                                    <button class="btn1" id="b1-btn" type="submit">Register</button>
+                                </form>
+                            </div>
+                            <div class="col-sm-6 col-12">
+                                <img src="Assest/img/Illustration.svg" class="img-fluid" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
-
-
-    <!-- box 3     -->
+    <!-- box 2     -->
     <div class="container-fluid mt-3 mb-3 mt-md-3 mb-md-3 mt-lg-5 mb-lg-5">
         <div class="container-md">
             <div class="row  mt-3 mb-3 mt-md-3 mb-md-3 mt-lg-5 mb-lg-5">
@@ -77,6 +148,9 @@
                         class="img-fluid" alt="">
                 </div>
             </div>
+
+
+            <!-- box  3 -->
             <div class="row justify-content-center gy-3 mt-3 mb-3">
                 <div class="col-12 fs-3 fw-bolder text-center ">Manage your entire community <br>in a single system
                 </div>
@@ -109,6 +183,10 @@
                     </div>
                 </div>
             </div>
+
+
+
+            <!-- box  4 -->
             <div class="row gy-3 justify-content-center mt-3 mb-3">
                 <div class="col-lg-5 col-12">
                     <img src="Assest/img/b51.svg" alt="" class="img-fluid">
@@ -120,12 +198,16 @@
                         justo ipsum. Sed accumsan quam vitae est varius fringilla. Pellentesque placerat vestibulum
                         lorem sed porta. Nullam mattis tristique iaculis. Nullam pulvinar sit amet risus pretium auctor.
                         Etiam quis massa pulvinar, aliquam quam vitae, tempus sem. Donec elementum pulvinar odio.</p>
-                    <form class="d-flex"><button class="btn btn-success text-white">Learn More</button></form>
+                    <form class="d-flex"><button class="btn1" id="b4-btn">Learn More</button></form>
 
                 </div>
             </div>
 
         </div>
+
+
+
+        <!-- box  5 -->
         <div class="container-fluid bg-light">
             <div class="container-md p-5">
                 <div class="row gy-3 mt-3 bg-light mb-3 justify-content-center align-items-center">
@@ -169,6 +251,7 @@
                 </div>
             </div>
         </div>
+        <!-- box  6 -->
         <div class="container-fluid ">
             <div class="container-md p-5">
                 <div class="row gy-3">
@@ -182,12 +265,14 @@
                             non aliquet urna tincidunt. Integer in nisi eget nulla commodo faucibus efficitur quis
                             massa. Praesent felis est, finibus et nisi ac, hendrerit venenatis libero. Donec consectetur
                             faucibus ipsum id gravida.</p>
-                        <form class="d-flex"><button class="btn btn-success text-white">Learn More</button></form>
-
+                        <form class="d-flex"><button class="btn1" id="b6-btn">Learn More</button></form>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <!-- box  7 -->
         <div class="container-fluid bg-light mt-3 mb-3">
             <div class="container-md">
                 <div class="row gy-3">
@@ -210,14 +295,18 @@
                             <div class="col-lg-1 col-4"><img src="Assest/img/b34.svg" alt="" class="img-fluid"></div>
                             <div class="col-lg-1 col-4"><img src="Assest/img/b35.svg" alt="" class="img-fluid"></div>
                             <div class="col-lg-1 col-4"><img src="Assest/img/b36.svg" alt="" class="img-fluid"></div>
-                            <form class="col-5 d-flex"><button class="btn text-success ">Meet all Customers -></button>
+                            <form class="col-5 d-flex"><a href="#">Meet all Customers <i
+                                        class="fa-solid fa-arrow-right"></i></a>
                             </form>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
+
+
+
+        <!-- box--8 -->
         <div class="container-md mt-3 mb-3">
             <div class="row justify-content-center gy-3">
                 <div class="col-12 ">
@@ -230,12 +319,110 @@
                         are increasing their membership income and lot's more.​
                     </p>
                 </div>
-                <div class="col-12">
-                    
+                <div class="col-12 d-flex flex-wrap justify-content-evenly align-items-center gy-3">
+                    <section class="img-overlaping mt-3">
+                        <img src="Assest/img/b91.svg" class="img-fluid" alt="">
+                        <div class="img-overlaping-content">
+                            <p class="img-overlapping-description">
+                                Creating Streamlined Safeguarding Processes with OneRen
+                            </p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </section>
+                    <section class="img-overlaping mt-3 ms-1">
+                        <img src="Assest/img/b92.svg" class="img-fluid" alt="">
+                        <div class="img-overlaping-content">
+                            <p class="img-overlapping-description">
+                                What are your safeguarding responsibilities and how can you manage them?
+                            </p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </section>
+                    <section class="img-overlaping mt-3 ms-1">
+                        <img src="Assest/img/b93.svg" class="img-fluid" alt="">
+                        <div class="img-overlaping-content">
+                            <p class="img-overlapping-description">
+                                Revamping the Membership Model with Triathlon Australia
+                            </p>
+                            <a href="#">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </section>
                 </div>
             </div>
-
         </div>
+        <!-- box  9  -->
+        <div class="container-fluid bg-light mt-3 mb-3 p-5">
+            <div class="container-md">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                        <h3 class="fw-bold fs-1 text-center">Pellentesque suscipit <br> fringilla libero eu.</h3>
+                    </div>
+                    <div class="col-lg-2 col-12">
+                        <button class="btn1" id="b10-btn" type="submit">Get Demo <i
+                                class="fa-solid fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--   -->
+        <div class="container-fluid " id="footer">
+            <div class="container-md">
+                <div class="row justify-content-center gy-3">
+                    <div class="col-lg-5 col-md-6 col-sm-6  col-12 footer-item1">
+                        <section class="d-flex flex-row">
+                            <img src="Assest/img/Icon.svg" alt="">
+                            <h3 class="fw-bold fs-3 text-white">Nexent</h3>
+                        </section>
+                        <p class="text-white fd-5">Copyright © 2020 Nexcent ltd.</p>
+                        <p class="text-white fd-5">All rights reserved</p>
+                        <ul class="d-flex  justify-content-start ps-0">
+                            <li class="text-center  icon"><a href="#" class="text-white"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
+                            <li class="ms-3 text-center icon"><a href="#" class="text-white"><i
+                                        class="fa-brands fa-dribbble" aria-hidden="true"></i></a>
+                            </li>
+                            <li class="ms-3 text-center icon"><a href="#" class="text-white"><i
+                                        class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li class="ms-3 text-center icon"><a href="#" class="text-white"><i
+                                        class="fa-brands fa-youtube"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 footer-item2">
+                        <h3 class="fw-bold fs-5 text-white">Company</h3>
+                        <ul class="list-group ">
+                            <li class="list-group-item  text-white  border-0 ps-0">About Us</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Blogs</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Contact us</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Pricing</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Testimonial</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-6 col-6 footer-item3">
+                        <h3 class="fw-bold fs-5 text-white">Support</h3>
+                        <ul class="list-group ">
+                            <li class="list-group-item  text-white   border-0 ps-0">Help Center</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Terms of Service</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Legal</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Privacy Policy</li>
+                            <li class="list-group-item  text-white  border-0 ps-0">Status</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12 footer-item4 position-relative">
+                        <h3 class="fw-bold fs-5 text-white">Stay up to date</h3>
+                        <form action="" class="d-flex">
+                            <input type="email" class="form-control border-0 text-white " name="" id=""
+                                placeholder="your email address">
+                            <i class="fa fa-paper-plane text-white position-absolute" aria-hidden="true"></i>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
 
